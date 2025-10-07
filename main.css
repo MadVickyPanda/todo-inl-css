@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to bottom,#ffcdc9 , #f09089);
+    background-image: linear-gradient(to bottom,#ffcdc9 , #f77f76);
     background-attachment: fixed;
 }
 
@@ -8,7 +8,7 @@ body{
     background-color: white;
     width: 35%;
     margin: auto;
-    padding: 5px;
+    padding: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.087);
     animation: 1s fadeInUp;
 }
@@ -24,14 +24,21 @@ body{
   }
 
   #input1 {
-    border-color:  blue;
     border-radius: 3px;
     border-width: 1.5px;
-    font-size: large;
+    font-size: x-large;
     width: 50%;
-    margin-bottom: 5px;
-    
+    margin-bottom: 10px;
+
   }
+
+  #input1:focus{
+    outline: none;
+    border-color: rgb(27, 27, 226);
+    border-width: 2px;
+
+  }
+
 
 .container{
     text-align: center;
@@ -40,7 +47,7 @@ body{
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 250%;
+    font-size: 350%;
     margin-top: 10px;
 }
 
@@ -57,7 +64,7 @@ h1{
 
 
 #completedNumber{
-    font-size: small;
+    font-size: medium;
     cursor:default;
 }
 li{
@@ -73,14 +80,15 @@ li{
     margin-left: 30px;
     font-weight:100;
     cursor: pointer;
+    
        
 }
 
 #message{
-    color: rgb(173, 34, 34);
+    color: rgb(248, 5, 5);
     animation: blinker 1s ;
     font-style: italic;
-    font-size: x-small;
+    font-size: small;
 }
 
 @keyframes blinker {
