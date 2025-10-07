@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to bottom,#ffcdc9 , #f77f76);
+    background-image: linear-gradient(to bottom,#ffc5c4 , #ff7c7d);
     background-attachment: fixed;
 }
 
@@ -27,16 +27,25 @@ body{
     border-radius: 3px;
     border-width: 1.5px;
     font-size: large;
-    width: 50%;
+    width: 40%;
     margin-bottom: 10px;
 
   }
 
   #input1:focus{
     outline: none;
-    border-color: rgb(27, 27, 226);
+    border-color: #1253a5;
     border-width: 2px;
+    border-radius: 3px;
 
+  }
+ #addTodoBtn {
+    margin-bottom: 10px;
+    font-size: large;
+    margin-left: 5px;
+    background-color: #ececec;
+    border-radius: 3px;
+    border-width: 1.5px;
   }
 
 
@@ -54,12 +63,12 @@ h1{
 .completed{
     text-decoration: line-through;
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.300);
+    color: #787878;
     animation: fadeIn 2s;      
 }
 @keyframes fadeIn {
   0% { color: black; }
-  100% { color: rgba(0, 0, 0, 0.300); }
+  100% { color: #787878; }
 }
 
 
@@ -89,7 +98,7 @@ li{
 }
 
 #message{
-    color: rgb(248, 5, 5);
+    color: #b42030;
     animation: blinker 1s ;
     font-style: italic;
     font-size: small;
@@ -102,4 +111,5 @@ li{
   }
 
 
+ 
   
