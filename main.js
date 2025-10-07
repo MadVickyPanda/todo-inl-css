@@ -84,7 +84,7 @@ function addTodo() {
             if (itemText.getAttribute("class") == "completed") {
                 itemText.setAttribute("class", "");
                 completed--;
-                completedElement.textContent = completed + " Slutförd!"
+                completedElement.textContent = completed + " completed"
                 
 
         
