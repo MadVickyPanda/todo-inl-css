@@ -66,12 +66,16 @@ h1{
 #completedNumber{
     font-size: medium;
     cursor:default;
+    font-family: sans-serif;
 }
+
 li{
+  font-family: sans-serif;
     font-size: x-large;
     list-style-type: none;
     text-align: center;
     margin: 3px;
+    cursor: pointer;
     
 }
 
