@@ -1,9 +1,9 @@
-body{
-    background-image: linear-gradient(to bottom,#ffc5c4 , #ff7c7d);
+body {
+    background-image: linear-gradient(to bottom, #ffc5c4, #ff7c7d);
     background-attachment: fixed;
 }
 
-#field{
+#field {
     text-align: center;
     background-color: white;
     width: 35%;
@@ -12,104 +12,111 @@ body{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.087);
     animation: 1s fadeInUp;
 }
+
 @keyframes fadeInUp {
     0% {
-      transform: translateY(0%);
-      opacity: 0;
+        transform: translateY(0%);
+        opacity: 0;
     }
-    100% {
-      transform: translateY(15%);
-      opacity: 1;
-    }
-  }
 
-  #input1 {
+    100% {
+        transform: translateY(15%);
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 350%;
+    margin-top: 10px;
+}
+
+#input1 {
     border-radius: 3px;
     border-width: 1.5px;
     font-size: large;
     width: 40%;
     margin-bottom: 10px;
 
-  }
+}
 
-  #input1:focus{
+#input1:focus {
     outline: none;
     border-color: #1253a5;
     border-width: 2px;
     border-radius: 3px;
 
-  }
- #addTodoBtn {
+}
+
+#addTodoBtn {
     margin-bottom: 10px;
     font-size: large;
     margin-left: 5px;
     background-color: #ececec;
     border-radius: 3px;
     border-width: 1.5px;
-  }
+}
 
 
-.container{
+.container {
     text-align: center;
-    
+
 }
 
-h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 350%;
-    margin-top: 10px;
-}
 
-.completed{
+
+.completed {
     text-decoration: line-through;
     cursor: pointer;
     color: #787878;
-    animation: fadeIn 2s;      
+    animation: fadeIn 2s;
 }
+
 @keyframes fadeIn {
-  0% { color: black; }
-  100% { color: #787878; }
+    0% {
+        color: black;
+    }
+
+    100% {
+        color: #787878;
+    }
 }
 
 
-#completedNumber{
+#completedNumber {
     font-size: medium;
-    cursor:default;
+    cursor: default;
     font-family: sans-serif;
 }
 
-li{
-  font-family: sans-serif;
+li {
+    font-family: sans-serif;
     font-size: x-large;
     list-style-type: none;
     text-align: center;
     margin: 3px;
     cursor: pointer;
-    
+
 }
 
-.trashcan{
+.trashcan {
     font-size: small;
     margin-left: 30px;
-    font-weight:100;
+    font-weight: 100;
     cursor: pointer;
-    
-       
+
+
 }
 
-#message{
+#message {
     color: #b42030;
-    animation: blinker 1s ;
+    animation: blinker 1s;
     font-style: italic;
     font-size: small;
 }
 
 @keyframes blinker {
     50% {
-      opacity: 0;
+        opacity: 0;
     }
-  }
-
-
- 
-  
+}
